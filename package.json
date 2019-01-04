@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "moment": "^2.23.0",
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "style.css": "^1.0.0"
+  }
 }

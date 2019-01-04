@@ -1,0 +1,7 @@
+* {margin:0;padding:0;}
+.row {width:100%;}
+.calendar {width:100%;border-spacing:0;border-collapse:collapse;table-layout:fixed}
+.calendar thead th {border:1px solid #ddd;width:30px;height:20px;border-left:0;border-bottom:0}
+.calendar thead th:first-child {border-left:1px solid #ddd} 
+.calendar thead th:nth-child(7n-6) {color:red} .calendar thead th:nth-child(7n-7) {color:blue}
+.calendar tbody td {border:1px solid #ddd;width:30px;height:20px;border-left:0}
